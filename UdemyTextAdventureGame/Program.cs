@@ -7,11 +7,11 @@ Console.WriteLine("Welcome To the Adventure Game");
 Console.WriteLine("Enter your charactere's name: ");
 string playerName = Console.ReadLine();
 
-Console.WriteLine("Choose your character type(waarior, Wizard, Archer");
+Console.WriteLine("Choose your character type(Warrior, Wizard, Archer");
 string characterType = Console.ReadLine();
 
 Console.WriteLine($"You, {playerName} the {characterType} find yourself at the ");
-Console.WriteLine("Do you enterd the forest or camp oustide? (Enter/Camp)");
+Console.WriteLine("Do you enter the forest or camp oustide? (Enter/Camp)");
 
 string choice1 = Console.ReadLine();    
 
